@@ -22,7 +22,7 @@ pod 'CCNextField'
 
 ## Author
 
-40695330, elyasalmalik@gmail.com
+2022 Conceit LLC
 
 ## License
 
