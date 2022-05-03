@@ -1,42 +1,20 @@
-#
-# Be sure to run `pod lib lint CCNextField.podspec' to ensure this is a
-# valid spec before submitting.
-#
-# Any lines starting with a # are optional, but their use is encouraged
-# To learn more about a Podspec see https://guides.cocoapods.org/syntax/podspec.html
-#
-
 Pod::Spec.new do |s|
   s.name             = 'CCNextField'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of CCNextField.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
-
+  s.swift_version    = '5.0'
+  s.summary          = 'An easy to use extension to go to the next UITextField.'
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+'CCNextField is an an extension to UIKITs UITextField with an easy usage to handle switching to the next UITextField when tapping the return key.'
+                        DESC
 
-  s.homepage         = 'https://github.com/40695330/CCNextField'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.homepage         = 'https://github.com/HiConceit/CCNextField'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { '40695330' => 'elyasalmalik@gmail.com' }
-  s.source           = { :git => 'https://github.com/40695330/CCNextField.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.author           = { 'Conceit LLC' => 'open-source@conceit.sa' }
+  s.source           = { :git => 'https://github.com/HiConceit/CCNextField.git', :tag => s.version.to_s }
+  s.social_media_url = 'https://twitter.com/HiConceit'
 
-  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '13.0'
 
-  s.source_files = 'CCNextField/Classes/**/*'
+  s.source_files = 'Source/*.swift'
   
-  # s.resource_bundles = {
-  #   'CCNextField' => ['CCNextField/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end

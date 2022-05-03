@@ -74,7 +74,6 @@ class ViewController: UIViewController, UITextFieldDelegate {
 }
 ```
 
-## Author
 
 2022 Conceit LLC
 

@@ -9,8 +9,7 @@
 /* Begin PBXBuildFile section */
 		15C2C77094BBD4943AE918166ADA14F0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		194F9ED0B54CDBC7D8CE2FA3B06F4C04 /* Pods-CCNextField_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 72935CCA7F15AFE99EABA62D143C213B /* Pods-CCNextField_Example-dummy.m */; };
-		24D8143C2821714900F46600 /* CCNextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D8143B2821714900F46600 /* CCNextField.swift */; };
-		24D8143D28217D4D00F46600 /* CCNextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D8143B2821714900F46600 /* CCNextField.swift */; };
+		24D814462821BEE500F46600 /* CCNextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D814452821BEE500F46600 /* CCNextField.swift */; };
 		668D9A032EE422EF4DA88C03C5A80316 /* CCNextField-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CAC275BF9A29DEC27CA8E85D71D12E3 /* CCNextField-dummy.m */; };
 		917629623B5D700528BB9094169F2F84 /* CCNextField-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 61BB13DFC39A1901C3C00BAA12D44D97 /* CCNextField-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9347B630B0C8A81CC516CCD656464A09 /* Pods-CCNextField_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 92764B0BCF8560E3F999CB62B26CB561 /* Pods-CCNextField_Tests-dummy.m */; };
@@ -40,7 +39,7 @@
 /* Begin PBXFileReference section */
 		08303BBA0DD7F9CEED4D85E6AD6B6B63 /* CCNextField.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CCNextField.release.xcconfig; sourceTree = "<group>"; };
 		1250D02F5070284921E08E3A2EB61633 /* CCNextField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CCNextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		24D8143B2821714900F46600 /* CCNextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CCNextField.swift; sourceTree = "<group>"; };
+		24D814452821BEE500F46600 /* CCNextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CCNextField.swift; sourceTree = "<group>"; };
 		36C4B9F17B0B2BFD5745B40A107ECFC1 /* Pods_CCNextField_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CCNextField_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BE4BDB12369BC91815DA992406C5DAC /* Pods-CCNextField_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CCNextField_Example-Info.plist"; sourceTree = "<group>"; };
 		3F0AEB685D3F68F6356BC7116325B6D9 /* Pods-CCNextField_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CCNextField_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -101,12 +100,12 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		24D8143A2821713C00F46600 /* src */ = {
+		24D814442821BEE500F46600 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				24D8143B2821714900F46600 /* CCNextField.swift */,
+				24D814452821BEE500F46600 /* CCNextField.swift */,
 			);
-			path = src;
+			path = Source;
 			sourceTree = "<group>";
 		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
@@ -214,7 +213,7 @@
 		D438667327ECD5E54F11CD1CC8682BD0 /* CCNextField */ = {
 			isa = PBXGroup;
 			children = (
-				24D8143A2821713C00F46600 /* src */,
+				24D814442821BEE500F46600 /* Source */,
 				65C9F1B68AD14F84FFFABCD649BAFC17 /* Pod */,
 				D40EC0B59F369AC066175B19BCBED4CC /* Support Files */,
 			);
@@ -391,7 +390,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				194F9ED0B54CDBC7D8CE2FA3B06F4C04 /* Pods-CCNextField_Example-dummy.m in Sources */,
-				24D8143D28217D4D00F46600 /* CCNextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -400,7 +398,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				668D9A032EE422EF4DA88C03C5A80316 /* CCNextField-dummy.m in Sources */,
-				24D8143C2821714900F46600 /* CCNextField.swift in Sources */,
+				24D814462821BEE500F46600 /* CCNextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
