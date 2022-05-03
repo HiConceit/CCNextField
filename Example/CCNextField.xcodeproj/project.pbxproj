@@ -109,12 +109,12 @@
 			isa = PBXGroup;
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
+				24D8144228218A4000F46600 /* LaunchScreen.storyboard */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACD71AFB9204008FA782 /* TableViewController.swift */,
 				24D814402821818000F46600 /* UIView+Extension.swift */,
 				24D8143E28217DD200F46600 /* CCNextField.swift */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
-				24D8144228218A4000F46600 /* LaunchScreen.storyboard */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
 			);
 			name = "Example for CCNextField";
