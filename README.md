@@ -1,3 +1,8 @@
+<p align="center">
+<img src='https://github.com/HiConceit/CCNextField/blob/master/Example/CCNextField/Images.xcassets/Logo.imageset/CCNextField%402x.png' width="200" />
+</p>
+
+
 # CCNextField
 
 Conceit NextField is an an extension to `UIKIT's UITextField` with an easy usage to handle switching to the next `UITextField` when tapping the return key. 
