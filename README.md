@@ -5,7 +5,7 @@
 Conceit NextField is an an extension to `UIKIT's UITextField` with an easy usage to handle switching to the next `UITextField` when tapping the return key. 
 
 ```swift
-textField.nextField(resigns: resigns) {
+textField.nextField(resigns: true) {
   print("noice")
 }
 ```
