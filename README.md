@@ -9,7 +9,7 @@
 [![License](https://img.shields.io/cocoapods/l/CCNextField.svg?style=flat)](https://cocoapods.org/pods/CCNextField)
 [![Platform](https://img.shields.io/cocoapods/p/CCNextField.svg?style=flat)](https://cocoapods.org/pods/CCNextField)
 
-Conceit NextField is an an extension to `UIKIT's UITextField` with an easy usage to handle switching to the next `UITextField` when tapping the return key. 
+CCNextField is an an extension to `UIKIT's UITextField` with an easy usage to handle switching to the next `UITextField` when tapping the return key. 
 
 ```swift
 textField.nextField(resigns: true) {
