@@ -44,7 +44,7 @@ pod 'CCNextField'
 
 ### Direct
 
-Copy the `CCNextField` file from [here](https://github.com/HiConceit/CCNextField/blob/master/SPM/Sources/CCNextField/CCNextField.swift).
+Copy the [`Sources` folder](https://github.com/HiConceit/CCNextField/blob/master/SPM/Sources) to your project.
 
 ## Usage
 
