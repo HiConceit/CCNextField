@@ -3,6 +3,7 @@
 </p>
 
 
+​	
 
 # CCNextField
 
@@ -22,8 +23,15 @@ textField.nextField(resigns: true) {
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-
 ## Installation
+
+### Swift Package Manager (Preferred)
+
+In Xcode with your project open, go to File > Add Packages... > paste the following link in the search bar:
+
+```
+https://github.com/HiConceit/CCNextField
+```
 
 ### CocoaPods
 
@@ -34,17 +42,9 @@ it, simply add the following line to your Podfile:
 pod 'CCNextField'
 ```
 
-### Swift Package Manager
-
-In Xcode with your project open, go to File > Add Packages... > paste the following link in the search bar:
-
-```
-https://github.com/HiConceit/CCNextField
-```
-
 ### Direct
 
-Copy the `CCNextField` file from Source folder.
+Copy the [CCNextField folder](https://github.com/HiConceit/CCNextField/blob/master/SPM/Sources) to your project.
 
 ## Usage
 
