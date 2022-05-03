@@ -5,6 +5,10 @@
 
 # CCNextField
 
+[![Version](https://img.shields.io/cocoapods/v/CCNextField.svg?style=flat)](https://cocoapods.org/pods/CCNextField)
+[![License](https://img.shields.io/cocoapods/l/CCNextField.svg?style=flat)](https://cocoapods.org/pods/CCNextField)
+[![Platform](https://img.shields.io/cocoapods/p/CCNextField.svg?style=flat)](https://cocoapods.org/pods/CCNextField)
+
 Conceit NextField is an an extension to `UIKIT's UITextField` with an easy usage to handle switching to the next `UITextField` when tapping the return key. 
 
 ```swift
@@ -12,11 +16,6 @@ textField.nextField(resigns: true) {
   print("noice")
 }
 ```
-
-[![CI Status](https://img.shields.io/travis/40695330/CCNextField.svg?style=flat)](https://travis-ci.org/40695330/CCNextField)
-[![Version](https://img.shields.io/cocoapods/v/CCNextField.svg?style=flat)](https://cocoapods.org/pods/CCNextField)
-[![License](https://img.shields.io/cocoapods/l/CCNextField.svg?style=flat)](https://cocoapods.org/pods/CCNextField)
-[![Platform](https://img.shields.io/cocoapods/p/CCNextField.svg?style=flat)](https://cocoapods.org/pods/CCNextField)
 
 ## Example
 
