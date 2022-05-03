@@ -1,7 +1,5 @@
 # CCNextField
 
-[TOC]
-
 Conceit NextField is an an extension to `UIKIT's UITextField` with an easy usage to handle switching to the next `UITextField` when tapping the return key. 
 
 ```swift
@@ -35,7 +33,7 @@ pod 'CCNextField'
 
 ### Direct
 
-Copy the `CCNextField` file from src folder.
+Copy the `CCNextField` file from Source folder.
 
 ## Usage
 
