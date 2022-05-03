@@ -1,0 +1,22 @@
+{
+  "name": "CCNextField",
+  "version": "0.1.0",
+  "summary": "A short description of CCNextField.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/40695330/CCNextField",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "40695330": "elyasalmalik@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/40695330/CCNextField.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "CCNextField/Classes/**/*"
+}

@@ -1,0 +1,6 @@
+framework module CCNextField {
+  umbrella header "CCNextField-umbrella.h"
+
+  export *
+  module * { export * }
+}

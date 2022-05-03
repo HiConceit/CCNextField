@@ -1,0 +1,16 @@
+PODS:
+  - CCNextField (0.1.0)
+
+DEPENDENCIES:
+  - CCNextField (from `../`)
+
+EXTERNAL SOURCES:
+  CCNextField:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CCNextField: 86065e126d490f835af63a4360b1a38efea20d3d
+
+PODFILE CHECKSUM: f366683b3ed5042bb28d0a6a09b2787259656c69
+
+COCOAPODS: 1.11.3
