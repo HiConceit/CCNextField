@@ -3,6 +3,8 @@
 </p>
 
 
+
+
 # CCNextField
 
 [![Version](https://img.shields.io/cocoapods/v/CCNextField.svg?style=flat)](https://cocoapods.org/pods/CCNextField)
@@ -31,6 +33,14 @@ it, simply add the following line to your Podfile:
 
 ```ruby
 pod 'CCNextField'
+```
+
+### Swift Package Manager
+
+In Xcode with your project open, go to File > Add Packages... > paste the following link in the search bar:
+
+```
+https://github.com/HiConceit/CCNextField
 ```
 
 ### Direct
@@ -63,7 +73,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
         }
     }
   
-      // Get current textField and call nextField.
+	  // Get current textField and call nextField.
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
         // Set (resigns) to true to hide keyboard, or false to just execute your function.
         textField.nextField(resigns: true) {
