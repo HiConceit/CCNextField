@@ -9,8 +9,9 @@
 /* Begin PBXBuildFile section */
 		15C2C77094BBD4943AE918166ADA14F0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		194F9ED0B54CDBC7D8CE2FA3B06F4C04 /* Pods-CCNextField_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 72935CCA7F15AFE99EABA62D143C213B /* Pods-CCNextField_Example-dummy.m */; };
+		24D8143C2821714900F46600 /* CCNextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D8143B2821714900F46600 /* CCNextField.swift */; };
+		24D8143D28217D4D00F46600 /* CCNextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D8143B2821714900F46600 /* CCNextField.swift */; };
 		668D9A032EE422EF4DA88C03C5A80316 /* CCNextField-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CAC275BF9A29DEC27CA8E85D71D12E3 /* CCNextField-dummy.m */; };
-		85113BAD13B25417D6426365F227FF7F /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 512359BF1E6C963B1C6FA1C328EEFD48 /* ReplaceMe.swift */; };
 		917629623B5D700528BB9094169F2F84 /* CCNextField-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 61BB13DFC39A1901C3C00BAA12D44D97 /* CCNextField-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9347B630B0C8A81CC516CCD656464A09 /* Pods-CCNextField_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 92764B0BCF8560E3F999CB62B26CB561 /* Pods-CCNextField_Tests-dummy.m */; };
 		B1F80D33E396935ECEB610F6BC7DB6D9 /* Pods-CCNextField_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D7EF5E7C81B9E9B8E0DE7FCFAECEC73E /* Pods-CCNextField_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -38,14 +39,14 @@
 
 /* Begin PBXFileReference section */
 		08303BBA0DD7F9CEED4D85E6AD6B6B63 /* CCNextField.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CCNextField.release.xcconfig; sourceTree = "<group>"; };
-		1250D02F5070284921E08E3A2EB61633 /* CCNextField */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CCNextField; path = CCNextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		36C4B9F17B0B2BFD5745B40A107ECFC1 /* Pods-CCNextField_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-CCNextField_Example"; path = Pods_CCNextField_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1250D02F5070284921E08E3A2EB61633 /* CCNextField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CCNextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		24D8143B2821714900F46600 /* CCNextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CCNextField.swift; sourceTree = "<group>"; };
+		36C4B9F17B0B2BFD5745B40A107ECFC1 /* Pods_CCNextField_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CCNextField_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BE4BDB12369BC91815DA992406C5DAC /* Pods-CCNextField_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CCNextField_Example-Info.plist"; sourceTree = "<group>"; };
 		3F0AEB685D3F68F6356BC7116325B6D9 /* Pods-CCNextField_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CCNextField_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		45FE4744597FA16E44C82186EA22F80E /* Pods-CCNextField_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-CCNextField_Tests"; path = Pods_CCNextField_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		45FE4744597FA16E44C82186EA22F80E /* Pods_CCNextField_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CCNextField_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		471B1D7DCA306F637536A921EF883976 /* Pods-CCNextField_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CCNextField_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		5009D465E12B4F29E499C612FF89158C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		512359BF1E6C963B1C6FA1C328EEFD48 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = CCNextField/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		5009D465E12B4F29E499C612FF89158C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		5E9A489261AA951EFD69982AAF3D29DA /* CCNextField-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CCNextField-prefix.pch"; sourceTree = "<group>"; };
 		61BB13DFC39A1901C3C00BAA12D44D97 /* CCNextField-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CCNextField-umbrella.h"; sourceTree = "<group>"; };
 		6299B55F3905146152A386DDD344D4CB /* Pods-CCNextField_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CCNextField_Tests-Info.plist"; sourceTree = "<group>"; };
@@ -57,16 +58,16 @@
 		8488444C9B58E3E2FF5EB80B910086E5 /* Pods-CCNextField_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CCNextField_Example.modulemap"; sourceTree = "<group>"; };
 		8BDC653829CACFB7C6BA1EEEC0A8F8BE /* CCNextField-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CCNextField-Info.plist"; sourceTree = "<group>"; };
 		8C303EE23430181250815623A2980754 /* Pods-CCNextField_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CCNextField_Tests.modulemap"; sourceTree = "<group>"; };
-		8E8E3139E81AAE1FC2D0F07A14D8B7A7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		8E8E3139E81AAE1FC2D0F07A14D8B7A7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		92764B0BCF8560E3F999CB62B26CB561 /* Pods-CCNextField_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CCNextField_Tests-dummy.m"; sourceTree = "<group>"; };
 		955BB355DE865BDCA3EABEB1E255BCC8 /* Pods-CCNextField_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CCNextField_Example.release.xcconfig"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A18E5447D20B697DC1DFF2DD44A4D9F7 /* Pods-CCNextField_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CCNextField_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		B2BC2525458B1549068679D25F8ED4AD /* Pods-CCNextField_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CCNextField_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		B7627091F6E8737E319482E30BA408F9 /* Pods-CCNextField_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CCNextField_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		C0FBD695C69831626E2C7A19F68BBFBE /* Pods-CCNextField_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CCNextField_Tests-umbrella.h"; sourceTree = "<group>"; };
 		D20417B813E4D560E6FC6DD4558B3692 /* CCNextField.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CCNextField.debug.xcconfig; sourceTree = "<group>"; };
-		D3E4E41AD3BFB8716D340871498CAE69 /* CCNextField.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = CCNextField.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D3E4E41AD3BFB8716D340871498CAE69 /* CCNextField.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = CCNextField.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		D7EF5E7C81B9E9B8E0DE7FCFAECEC73E /* Pods-CCNextField_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CCNextField_Example-umbrella.h"; sourceTree = "<group>"; };
 		EACCFBD022983A5B78F8A7707829200D /* Pods-CCNextField_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CCNextField_Example-frameworks.sh"; sourceTree = "<group>"; };
 		EED476BAEF7738EA4803A4BFB158573D /* CCNextField.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CCNextField.modulemap; sourceTree = "<group>"; };
@@ -100,6 +101,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		24D8143A2821713C00F46600 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				24D8143B2821714900F46600 /* CCNextField.swift */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -205,7 +214,7 @@
 		D438667327ECD5E54F11CD1CC8682BD0 /* CCNextField */ = {
 			isa = PBXGroup;
 			children = (
-				512359BF1E6C963B1C6FA1C328EEFD48 /* ReplaceMe.swift */,
+				24D8143A2821713C00F46600 /* src */,
 				65C9F1B68AD14F84FFFABCD649BAFC17 /* Pod */,
 				D40EC0B59F369AC066175B19BCBED4CC /* Support Files */,
 			);
@@ -216,9 +225,9 @@
 		E2F99A51327B625D2182F1FDF3A4F2DA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1250D02F5070284921E08E3A2EB61633 /* CCNextField */,
-				36C4B9F17B0B2BFD5745B40A107ECFC1 /* Pods-CCNextField_Example */,
-				45FE4744597FA16E44C82186EA22F80E /* Pods-CCNextField_Tests */,
+				1250D02F5070284921E08E3A2EB61633 /* CCNextField.framework */,
+				36C4B9F17B0B2BFD5745B40A107ECFC1 /* Pods_CCNextField_Example.framework */,
+				45FE4744597FA16E44C82186EA22F80E /* Pods_CCNextField_Tests.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -268,7 +277,7 @@
 			);
 			name = CCNextField;
 			productName = CCNextField;
-			productReference = 1250D02F5070284921E08E3A2EB61633 /* CCNextField */;
+			productReference = 1250D02F5070284921E08E3A2EB61633 /* CCNextField.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		568324A80872F20C601A5D1F116FFCC1 /* Pods-CCNextField_Example */ = {
@@ -287,7 +296,7 @@
 			);
 			name = "Pods-CCNextField_Example";
 			productName = Pods_CCNextField_Example;
-			productReference = 36C4B9F17B0B2BFD5745B40A107ECFC1 /* Pods-CCNextField_Example */;
+			productReference = 36C4B9F17B0B2BFD5745B40A107ECFC1 /* Pods_CCNextField_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		5C36577B00C527212415FFFCD9D48EDC /* Pods-CCNextField_Tests */ = {
@@ -306,7 +315,7 @@
 			);
 			name = "Pods-CCNextField_Tests";
 			productName = Pods_CCNextField_Tests;
-			productReference = 45FE4744597FA16E44C82186EA22F80E /* Pods-CCNextField_Tests */;
+			productReference = 45FE4744597FA16E44C82186EA22F80E /* Pods_CCNextField_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -316,7 +325,13 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1240;
-				LastUpgradeCheck = 1240;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					4E2B359A171971E7F1BF77DF3D279DBB = {
+						LastSwiftMigration = 1330;
+						ProvisioningStyle = Automatic;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -376,6 +391,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				194F9ED0B54CDBC7D8CE2FA3B06F4C04 /* Pods-CCNextField_Example-dummy.m in Sources */,
+				24D8143D28217D4D00F46600 /* CCNextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -384,7 +400,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				668D9A032EE422EF4DA88C03C5A80316 /* CCNextField-dummy.m in Sources */,
-				85113BAD13B25417D6426365F227FF7F /* ReplaceMe.swift in Sources */,
+				24D8143C2821714900F46600 /* CCNextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -421,7 +437,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-CCNextField_Tests/Pods-CCNextField_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-CCNextField_Tests/Pods-CCNextField_Tests.modulemap";
@@ -491,7 +507,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -519,7 +535,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-CCNextField_Tests/Pods-CCNextField_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-CCNextField_Tests/Pods-CCNextField_Tests.modulemap";
@@ -552,7 +568,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-CCNextField_Example/Pods-CCNextField_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-CCNextField_Example/Pods-CCNextField_Example.modulemap";
@@ -574,26 +590,32 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 08303BBA0DD7F9CEED4D85E6AD6B6B63 /* CCNextField.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = K3V76KHVGG;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GCC_PREFIX_HEADER = "Target Support Files/CCNextField/CCNextField-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/CCNextField/CCNextField-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/CCNextField/CCNextField.modulemap";
 				PRODUCT_MODULE_NAME = CCNextField;
 				PRODUCT_NAME = CCNextField;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -616,7 +638,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-CCNextField_Example/Pods-CCNextField_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-CCNextField_Example/Pods-CCNextField_Example.modulemap";
@@ -637,26 +659,33 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D20417B813E4D560E6FC6DD4558B3692 /* CCNextField.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GCC_PREFIX_HEADER = "Target Support Files/CCNextField/CCNextField-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/CCNextField/CCNextField-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/CCNextField/CCNextField.modulemap";
 				PRODUCT_MODULE_NAME = CCNextField;
 				PRODUCT_NAME = CCNextField;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -713,13 +742,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
